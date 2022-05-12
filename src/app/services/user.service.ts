@@ -20,7 +20,7 @@ export class UserService {
     })
   };
   constructor(private http: HttpClient) {
-    this.myAppUrl = environment.appUrl; 
+   // this.myAppUrl = environment.appUrl; 
     this.myApiUrl = '/users';
   }  
     ///api/path1/user/
